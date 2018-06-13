@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .box {
+            box-sizing: border-box;
+            border-radius: 15px;
+            background-color: red;
+            color: white;
+            font-size: 30px;
+            height: 100px;
+            margin: 5px 0;
+            padding: 25px;
+            transition: all 2s;
+            text-align: center;
+            width: 100px;
+        }
+        .smallButton {
+            box-sizing: border-box;
+            background-color: lightgray;
+            width: 100px;
+            height: 50px;
+            font-family: sans-serif;
+            color: gray;
+            border-radius: 20px;
+            border: 2px gray double;
+            padding: 15px;
+            transition: all 2s;
+            text-align: center;
+        }
+        .smallButton:hover {
+            background-color: white;
+            transform: scale(1.1, 1.1);
+        }
+        .rotated:hover {
+            background-color: blue;
+            transform: rotate(35deg);
+        }
+        
+        .skewed:hover {
+             background-color: orange;
+            transform: skew(5deg, 10deg);
+        }
+        
+        .scaled:hover {
+            background-color: blue;
+            transform: scale(2, 0.5);
+        }
+        
+        .perspective:hover {
+            background-color: yellow;
+           transform: perspective(300px) rotateY(45deg) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box rotated">2</div>
+    <div class="box skewed">3</div>
+    <div class="box scaled">4</div>
+    <div class="box perspective">5</div>
+    <div class="smallButton">PRESS</div>
+</body>
+</html>

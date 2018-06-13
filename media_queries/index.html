@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100%;
+            height: 300px;
+            background-color: lemonchiffon;
+            font-size: 2em;
+            color: red;
+        }
+        
+        .elephant {
+            display:box-inline;
+            width:40%;
+        }
+        .elephant1 {
+            display:box-inline;
+            width:90%;
+        }
+        @media screen and (min-width: 376px) {
+            .box {
+                background-color: lightgray;
+                color: Black;
+                text-align:center;
+                font-family:sans-serif;
+            }
+        }
+        
+        @media screen and (min-width: 594px) {
+            .box {
+                background-color: brown;
+                color: lightgreen;
+                border: solid thin;
+                border-color:red;
+                border-radius:20px;
+            }
+            .elephant {
+                display: inline-block;
+                               width:30%;
+                margin-left:10px;
+            }
+             .elephant {
+                display: inline-block;
+                               width:30%;
+                margin-left:10px;
+            }
+            
+              @media screen and (min-width: 769px) {
+            .box {
+                background-color: black;
+                color: yellow;
+            }
+            .elephant {
+                display: inline-block;
+                width:43%;
+                margin:5px;
+            }
+                        .elephant1 {
+                display: inline-block;
+                width:89%;
+                margin-left:20px;
+            }
+                        .elephant {
+                display: inline-block;
+                width:43%;
+                margin:5px;
+            }
+                        .elephant1 {
+                display: inline-block;
+                width:89%;
+                margin-left:20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">I am text<br />
+    <img class="elephant1" src="image.jpg" ></div>
+    <img class="elephant" src="image.jpg" ></div>
+    <img class="elephant" src="image.jpg"></div>
+    
+</body>
+</html>
