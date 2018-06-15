@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap1.0</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .shaded {
+            background-color: grey;
+        }
+
+        .unshaded {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container navbar-inverse navbar-fixed-top">
+            <div class="nav navbar-header">
+                <a class="navbar-brand" href="#">LOGO</a>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span></div>
+                </button>
+
+                <ul id="navbarCollapse" class="nav collapse navbar-collapse navbar-nav navbar-right">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Porfolio</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+    </nav>
+
+    <div class="container">
+        <div class="col-sm-4">
+            <h2>html</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate vel repudiandae harum dolores quaerat mollitia omnis, atque ex alias molestias consequuntur autem ipsum! Soluta porro neque repellendus molestias recusandae!</p>
+        </div>
+        <div class="col-sm-4">
+            <h2>css</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate vel repudiandae harum dolores quaerat mollitia omnis, atque ex alias molestias consequuntur autem ipsum! Soluta porro neque repellendus molestias recusandae!</p>
+        </div>
+        <div class="col-sm-4">
+            <h2>css</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate vel repudiandae harum dolores quaerat mollitia omnis, atque ex alias molestias consequuntur autem ipsum! Soluta porro neque repellendus molestias recusandae!</p>
+        </div>
+        <hr>
+        <div class="col-sm-3">
+            <h2>Javasctript</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate vel repudiandae harum dolores quaerat mollitia omnis, atque ex alias molestias consequuntur autem ipsum! Soluta porro neque repellendus molestias recusandae!</p>
+            <button class="btn btn-primary btn-primary">More</button>
+        </div>
+        <div class="col-sm-3">
+            <h2>Python</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate vel repudiandae harum dolores quaerat mollitia omnis, atque ex alias molestias consequuntur autem ipsum! Soluta porro neque repellendus molestias recusandae!</p>
+            <button class="btn btn-primary btn-info">More</button>
+        </div>
+        <div class="col-sm-3">
+            <h2>Diango</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate vel repudiandae harum dolores quaerat mollitia omnis, atque ex alias molestias consequuntur autem ipsum! Soluta porro neque repellendus molestias recusandae!</p>
+            <button class="btn btn-info btn-warning">More</button>
+
+        </div>
+        <div class="col-sm-3">
+            <h2>Github</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate vel repudiandae harum dolores quaerat mollitia omnis, atque ex alias molestias consequuntur autem ipsum! Soluta porro neque repellendus molestias recusandae!</p>
+        </div>
+        <button class="btn btn-primary btn-danger">More</button>
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>sql</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe temporibus consectetur doloribus cumque, doloremque excepturi a ullam placeat, molestias eveniet.ipsum dolor sit amet, consectetur adipisicing elit. Saepe temporibus consectetur
+                    doloribus cumque, doloremque excepturi a ullam placeat, molestias eveniet.</p>
+
+            </div>
+
+            <div class="col-sm-6">
+                <h2>FTP</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe temporibus consectetur doloribus cumque, doloremque excepturi a ullam placeat, molestias eveniet.ipsum dolor sit amet, consectetur adipisicing elit. Saepe temporibus consectetur
+                    doloribus cumque, doloremque excepturi a ullam placeat, molestias eveniet.</p>
+            </div>
+
+            <div class="col-sm-12">
+                <h2>Full Developement</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe temporibus consectetur doloribus cumque, doloremque excepturi a ullam placeat, molestias eveniet.ipsum dolor sit amet, consectetur adipisicing elit. Saepe temporibus consectetur
+                    doloribus cumque, doloremque excepturi a ullam placeat, molestias eveniet</p>
+
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#model-box">Open the Model</button>
+
+        <div class="modal fade" id="model-box" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>One fine body&hellip;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
